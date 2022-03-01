@@ -6,7 +6,7 @@ const header = document.getElementById('storyHeader');
 const para = document.getElementById('storyPara');
 const q = document.getElementById('storyQ');
 //TO CHANGE AVATAR
-const ava = document.getElementById('avatar');
+const ava = document.getElementById('avatar').src;
 //BUTTON TOGGLER
 function toggleBtns(btnsArray, on) { 
     for (let btn = 0; btn < btnsArray.length; btn++) {
