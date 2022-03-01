@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+}
+
+body{
+  background-color: rgb(255,255,255) !important ;
+  background-image: radial-gradient(circle, #fffce8 30%, #8fecff 100%) !important ;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+.game-body {
+  width: 50%;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.h1-title {
+  font-size: 150px;
+  font-family: 'Love Ya Like A Sister';
+  margin: 0;
+  padding: 0;
+  letter-spacing: 10px;
+  line-height: 70%;
+}
+
+.h4-title {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 2% 0 2% 0;
+}
+
+.h2-header {
+  font-family: 'Love Ya Like A Sister';
+  font-size: 45px;
+  color: #ff7b00;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#storyPara {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  margin-left: 20px;
+}
+
+#storyQ {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  text-align: center;
+}
+
+
+.start {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 18px;
+  color: palevioletred;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 60%;
+  font-weight: bold;
+}
+
+.start:hover {
+  color: rgb(236, 146, 176);
+}
+
+/* Game Play */
+
+.btn-game-left {
+  width: 100%;
+  height: 100px;
+  background-color: #fffce8;
+  border-style: solid;
+  border-color: #f1edce;
+  margin: 5px;
+  font-family: 'Love Ya Like A Sister';
+  font-size: 20px;
+}
+
+.btn-game-right {
+  width: 100%;
+  height: 100px;
+  background-color: #fffce8;
+  border-style: solid;
+  border-color: #f1edce;
+  margin: 5px;
+  font-family: 'Love Ya Like A Sister';
+  font-size: 20px;
+}
+
+
+.row-buttons {
+  position: absolute;
+}
