@@ -19,11 +19,13 @@ body{
 
 .avatar-container {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .avatar {
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    border-style: solid 10px red;
 }
 
 .h1-title {
