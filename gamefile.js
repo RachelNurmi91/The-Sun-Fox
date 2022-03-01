@@ -5,6 +5,8 @@ const rBtn = document.getElementById('rightBtn');
 const header = document.getElementById('storyHeader');
 const para = document.getElementById('storyPara');
 const q = document.getElementById('storyQ');
+//TO CHANGE AVATAR
+const ava = document.getElementById('avatar');
 //BUTTON TOGGLER
 function toggleBtns(btnsArray, on) { 
     for (let btn = 0; btn < btnsArray.length; btn++) {
@@ -16,7 +18,8 @@ function toggleBtns(btnsArray, on) {
     }
 }
 // GAME FUNCTION
-function game({title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun}) {
+function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun}) {
+  ava.innerHTML = avatar;
   header.innerHTML = title;
   para.innerHTML = paragraph;
   q.innerHTML = question;
@@ -31,6 +34,7 @@ window.onload = (event) => {
 };
 //INTO OBJECT
 path000 = {
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-neutral.jpg',
   title: 'The Sun Fox',
   paragraph: '<p>It\'s been gloomy for so long that the world has started to seem as if its turning to gray. The forecast has been cloudy with a chance of rain for the last 984 days.</p> <p>You\'re standing outstanding waiting for the bus. An orange light dashes past you. It is the brightest thing you\'ve seen in years. You look around. No one else seems to have noticed and the bus is approaching.</p>',
   question: "→ What do you do?",
