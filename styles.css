@@ -19,12 +19,12 @@ body{
 
 .avatar-container {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 3%;
 }
 
 .avatar {
-    height: 100px;
-    width: 100px;
+    height: 15px;
+    width: 150px;
     border-radius: 50%;
 }
 
