@@ -17,13 +17,12 @@ body{
   width: 50%;
 }
 
-.icon-container {
+.avatar-container {
     text-align: center;
 }
 
-.icon {
-  width: 100px;
-  height: 100px;
+.avatar {
+    border-radius: 50%;
 }
 
 .h1-title {
