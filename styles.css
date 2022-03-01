@@ -23,6 +23,7 @@ body{
 
 .avatar {
     border-radius: 50%;
+    border-style: solid 10px red;
 }
 
 .h1-title {
