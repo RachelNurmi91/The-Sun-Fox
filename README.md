@@ -1,2 +1,2 @@
-# TheSunFox
-A Choose Your Own Adventure Game
+# The Sun Fox
+## A Choose Your Own Adventure Game
