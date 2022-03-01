@@ -22,7 +22,7 @@ body{
     padding-bottom: 3%;
 }
 
-.avatar {
+#avatar {
     height: 150px;
     width: 150px;
     border-radius: 50%;
