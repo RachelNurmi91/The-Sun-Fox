@@ -13,6 +13,7 @@ body{
 }
 
 .game-body {
+  padding: 10% 0;
   width: 50%;
 }
 
