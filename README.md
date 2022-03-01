@@ -1,4 +1,2 @@
-# The Sun Fox
-### A Choose Your Own Adventure Game
----
-An object oriented Javascript browser game.
+# Choose Your Own Adventure: The Sun Fox
+###An object oriented Javascript browser game.
