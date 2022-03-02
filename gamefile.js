@@ -19,7 +19,7 @@ function toggleBtns(btnsArray, on) {
 }
 // GAME FUNCTION
 function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun}) {
-  ava.src = "avatar"
+  ava.src = avatar;
   header.innerHTML = title;
   para.innerHTML = paragraph;
   q.innerHTML = question;
