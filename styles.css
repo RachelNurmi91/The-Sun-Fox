@@ -113,3 +113,11 @@ body{
 .row-buttons {
   position: absolute;
 }
+
+
+@media only screen and (min-width: 1500px) {
+  body{
+  background-color: red !important ;
+ 
+}
+}
