@@ -116,12 +116,8 @@ body{
 
 
 @media only screen and (min-width: 1500px) {
-  .h2-header {
-  font-family: 'Love Ya Like A Sister';
-  font-size: 45px;
-  color: red;
-  margin-bottom: 2%;
-  text-transform: uppercase;
-  text-align: center;
-}
+  .game-body {
+    padding: 10% 0;
+    width: 30%;
+  }
 }
