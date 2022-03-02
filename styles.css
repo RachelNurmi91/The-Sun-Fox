@@ -4,7 +4,7 @@ html {
 
 body{
   background-color: rgb(255,255,255) !important ;
-  background-image: radial-gradient(circle, #fffce8 30%, #8fecff 100%) !important ;
+  background-image: radial-gradient(circle, #fffce8 30%, #8fecff 100%), url('backgroundimg.png') !important ;
   position: absolute;
   width: 100%;
   display: flex;
