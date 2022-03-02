@@ -20,6 +20,8 @@ body{
 .avatar-container {
     text-align: center;
     padding-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #avatar {
