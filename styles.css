@@ -4,10 +4,10 @@ html {
 
 body{
   background-image: url("backgroundimg.png") !important ;
+  background-image: url("backgroundimg.png"), radial-gradient(circle, #fffce8 30%, #8fecff 100%), url('backgroundimg.png') !important ;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-color: rgb(255,255,255) !important ;
-/*   background-image: radial-gradient(circle, #fffce8 30%, #8fecff 100%), url('backgroundimg.png') !important ; */
   position: absolute;
   width: 100%;
   display: flex;
