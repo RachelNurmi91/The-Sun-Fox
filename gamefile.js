@@ -321,7 +321,7 @@ path024 = {
 };
 
 path025 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-curious.jpg'
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-curious.jpg',
   title: '\"What Exactly Are You?\"',
   paragraph: '<p>While there is silence you speak up. \"Who are you?\" When you ask this question you see the three mice run up to you with big eyes. One looks at you with a gasp. Something about mice knowing something you don\'t makes you blush.</p><p>\"I am the Sun Fox.\" As the glowing figure speaks his name you can hear the muffled sound of praises. Of course. You had just read the story after all.</p><p>\"Don\'t be embarrassed, child. My story has long been forgotten by your kind. I am not an animal, I am not a god. I am something in between…but my time was cut short.\"</p>',
   question: '→ You want to know more, but what?',
@@ -332,7 +332,7 @@ path025 = {
 };
 
 path026 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-surprised.jpg'
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-surprised.jpg',
   title: '\"Cut Short?\"',
   paragraph: '<p>\"Why was it cut short?\" You notice the wound on its back is not glowing. Instead it is the darkest spot on the Sun Fox.</p><p>\"A human...\" As the Sun Fox begins to tell the story you see it animate in the lights. \"I was finishing my trip around the world, bringing sun to all, when I was marked by a human. You see, I have met humans many times before. Some spread my legend in awe and thank me for my time. Others have thought me to be a great trophy. I had met the wrong fate that day.\" </p>',
   question: '→ What answers do you need?',
@@ -343,7 +343,7 @@ path026 = {
 };
 
 path027 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-smile.jpg'
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-smile.jpg',
   title: '\"Why Did You Bring Me Here?\"',
   paragraph: '<p>\"Why did you bring me here?\" Asking felt rude but you needed to know.<p>\"I am dying. Soon my light will run out and the world will once again descend into darkness. With little time left I sent my friends out to find someone worthy. And since a human took my soul. It needs to be a human to replace it. You see not everyone can see the light. It takes someone with a soul that is pure.\" </p>',
   question: '→ Pure soul...You?',
@@ -354,7 +354,7 @@ path027 = {
 };
 
 path028 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-worried.jpg'
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-worried.jpg',
   title: '\"Why Me?\"',
   paragraph: '<p>You made an old lady drop her newly baked pie last week because you almost knocked her over on your way to school. You didn\'t stop because you didn\'t want to be late. You didn\'t feel like a pure soul. \"Why me?\" The honor felt too great.</p><p>\"To be honest,\" the Sun Fox said. \"There are many souls that are pure. Many came down here, but most either never made it to me or were too afraid to help. You are not the first soul that is pure, nor the last. Though, I\'m afraid there is no time left and you are my last hope.\"</p>',
   question: '→ Does that sound like something you want?',
@@ -365,7 +365,7 @@ path028 = {
 };
 
 path029 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-scared.jpg'
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-scared.jpg',
   title: '\"I Can\'t Do It\"',
   paragraph: '<p>With your rejection, the Sun Fox spoke, \"A soul who can\'t is a soul who won\'t\".</p><p>You blink and you are back at the bus stop. People all around you are running from the bus. They seem to be frantic. Your phone pings and you see an alert that a flash flood is coming.</p><p>You must live with the choice you made.</p>',
   question: '→ Game Over',
@@ -376,7 +376,7 @@ path029 = {
 };
 
 path030 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-confident.jpg'
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-confident.jpg',
   title: '\"How Can I Help?\"',
   paragraph: '<p>You are eager. Whatever it is you will do. \"How can I help?\" You find your blood pumping. A large smile is plastered on your face. You are the chosen one, or whatever, and — </p><p>Your thoughts are broken by the Sun Foxes reply. \"You must sacrifice your soul and become the new Sun Guardian. You must leave everyone you love behind and take on the life of a demi-god. Neither God nor human. You will spend your days with the spirits of nature until your time ends. You will spend your existence bringing light to the lands.\"</p><p>You think of your friends, your family, your future. That was not the reply you expected. You think of how worried your mother will be when you\'re not in time for dinner. Your little sister is probably at the window waiting for your return home.</p><p>\"Will you take on this burden?\"</p>',
   question: '→ Well, will you?',
@@ -387,7 +387,7 @@ path030 = {
 };
 
 path031 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-worried.jpg'
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-worried.jpg',
   title: 'Turn It Down',
   paragraph: '<p>You were prepared for a lot but you weren\'t prepared for that. You have too many people who care about you and too many people you care about. You can’t just vanish from existence! \"I\'m sorry.\" You hang your head. \"But I can’t do that.\" You look up at the Sun Fox. You can see that even in the short time you\'ve spoken he has seem to have dimmed. \"There has to be someone else!\" You plead.</p><p>The Sun Fox doesn\'t say a word. It just nods. As it does the room flashes and blinds you. You are being shaken awake. You can see you are at the bus stop and an older man is above you. \"Wake up! We need to go!\" You recognize him as one of the daily commuters that takes the bus with you. He pulls you up to your feet and you stumble. \"A tsunami! A tsunami is coming!\"</p><p>You can feel your heart beat out of your chest. You realize you made a major mistake.<p>',
   question: '→ Game Over',
@@ -398,7 +398,7 @@ path031 = {
 };
 
 path032 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-sun.jpg'
+  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-sun.jpg',
   title: 'Take It On',
   paragraph: '<p>You were prepared for a lot but you weren\'t prepared for that. You have many people who care about you and many people you care about. But… What good is that if the light is gone? What good is your love if life on earth succumbs to complete darkness? You are, after all, the last shot. There isn\'t someone else who can take your place. And if there was, would they?</p><p>Your loved ones will miss you, but they will be safe. They will move on. \"I\'ll do it.\"</p><p>The light from the Sun Fox tunnels up into a ball above it. \"You are the one worthy of this. I know the fear you must feel and the pain of losing those you love. I will make sure the hearts of your loved ones are at peace.\" You can see he is now just a normal wounded fox. In that moment you wish you could save him too. The yellow ball of light shoots straight into your heart. It doesn’t hurt. In fact you don\'t feel anything other than a soft radiating warmth. </p><p>There is a bright flash of light.</p><p>When you can see again, the Sun Fox is gone from existence. The white glowing mice run up to you. One runs up onto your shoulder and checks you out. It alerts you to the fact that you are now just the glowing shape of the human you once were. </p><p>You think about the surface and you suddenly are there. You have somehow brought yourself to the hill above your family\'s home. Things are different now. You don\'t yet understand your power but soon you will.</p><p>When you look down at the valley below, you smile. The world is no longer shades of gray. It is bright colors. Your little sister run outside with your mom in tow. She points to a rainbow. There hasn\'t been a rainbow in years.</p>',
   question: '→ You have saved the world, Sun Child.',
