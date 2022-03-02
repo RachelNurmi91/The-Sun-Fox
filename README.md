@@ -16,5 +16,7 @@ The first draft of this project just consisted of functions passing functions un
 ### Screenshots
 ![Game Screenshot](screenshots/SunFoxScreenShot.png)
 > Screenshot of the games opening.
+
+
 ![Game Screenshot](screenshots/SunFoxScreenShot2.png)
 > Screenshot a random scene from the game to show the changes in avatar, text and buttons.
