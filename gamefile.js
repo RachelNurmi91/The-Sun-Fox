@@ -34,7 +34,7 @@ window.onload = (event) => {
 };
 //INTO OBJECT
 path000 = {
-  avatar: 'avatars/avatar-neutral.jpg',
+  avatar: 'avatars/avatar-neutral.JPG',
   title: 'The Sun Fox',
   paragraph: '<p>It\'s been gloomy for so long that the world has started to seem as if its turning to gray. The forecast has been cloudy with a chance of rain for the last 984 days.</p> <p>You\'re standing outstanding waiting for the bus. An orange light dashes past you. It is the brightest thing you\'ve seen in years. You look around. No one else seems to have noticed and the bus is approaching.</p>',
   question: "→ What do you do?",
