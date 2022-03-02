@@ -34,7 +34,7 @@ window.onload = (event) => {
 };
 //INTO OBJECT
 path000 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-neutral.jpg',
+  avatar: 'avatars/avatar-neutral.jpg',
   title: 'The Sun Fox',
   paragraph: '<p>It\'s been gloomy for so long that the world has started to seem as if its turning to gray. The forecast has been cloudy with a chance of rain for the last 984 days.</p> <p>You\'re standing outstanding waiting for the bus. An orange light dashes past you. It is the brightest thing you\'ve seen in years. You look around. No one else seems to have noticed and the bus is approaching.</p>',
   question: "→ What do you do?",
@@ -45,7 +45,7 @@ path000 = {
 };
 
 path001 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-worried.jpg',
+  avatar: 'avatars/avatar-worried.jpg',
   title: 'Get On The Bus',
   paragraph: '<p>You got on the bus as the rain started to pour down. It looks like another gloomy day ahead and no end in sight.</p>',
   question: '→ Game over',
@@ -56,7 +56,7 @@ path001 = {
 };
 
 path002 = {
-  avatar: 'https://rachelnurmi91.github.io/TheSunFox/avatars/avatar-suprised.jpg',
+  avatar: 'avatars/avatar-suprised.jpg',
   title: 'Chase after the light',
   paragraph: '<p>The bus screeches to a halt. Everyone is starting to board the bus. You look at the bus then you look at the orange light disappearing further into the distance. Something tells you to go for it. You drop everything and run into the forest after the orange light.</p><p>You are starting to catch up to it and notice it has stopped. Just as you\'re starting to make out its shape it darts off into a small dark cave.</p>',
   question: '→ Do you dare to look inside?',
