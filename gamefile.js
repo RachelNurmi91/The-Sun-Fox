@@ -30,13 +30,13 @@ function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, r
 //ONLOAD
 window.onload = (event) => {
 	titleScreen();
-//     game(path000);
 };
 
 //TITLE FUNCTION
 function titleScreen() {
 	document.getElementById('title')style.display = 'block';
 	document.getElementById('game')style.display = 'none';
+	document.getElementById('gameStart').onclick = game(path000);
 }
 
 //INTRO OBJECT
