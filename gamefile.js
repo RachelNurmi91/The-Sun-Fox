@@ -1,24 +1,36 @@
 //BUTTONS FOR GAME CONTROL
 const lBtn = document.getElementById('leftBtn');
 const rBtn = document.getElementById('rightBtn');
+
 //TO CHANGE TEXT
 const header = document.getElementById('storyHeader');
 const para = document.getElementById('storyPara');
 const q = document.getElementById('storyQ');
+
 //TO CHANGE AVATAR
 const ava = document.getElementById('avatar');
+
 //BUTTON TOGGLER
-function toggleBtns(btnsArray, on) { 
-    for (let btn = 0; btn < btnsArray.length; btn++) {
-        if (on) {
-            btnsArray[btn].style.display = "inline-block"; 
-        } else {
-            btnsArray[btn].style.display = "none";
-        }
-    }
-}
+function toggleVis({turnOffLeft, turnOffRight}) { 
+
+	const visBtnLeft = document.getElementById("leftBtn");
+	const visBtnRight = document.getElementById("rightBtn");
+
+        if (turnOffLeft == true) {
+		visBtnLeft.style.display === "none";
+	  } else {
+		visBtnLeft.style.display === "inline-block"
+	};
+
+        if (turnOffRight == true) {
+		visBtnRight.style.display === "none";
+	  } else {
+		visBtnRight.style.display === "inline-block"
+	};
+};
+
 // GAME FUNCTION
-function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun}) {
+function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun, turnOffLeft, turnOffRight}) {
   ava.src = avatar;
   header.innerHTML = title;
   para.innerHTML = paragraph;
@@ -27,11 +39,16 @@ function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, r
   rBtn.innerHTML = rightBtn;
   lBtn.onclick = leftFun;
   rBtn.onclick = rightFun;
+    
+  toggleVis({turnOffLeft, turnOffRight});
 };
+
 //ONLOAD
 window.onload = (event) => {
     game(path000);
+    toggleBtns(path000);
 };
+
 //INTO OBJECT
 path000 = {
   avatar: 'avatars/avatar-neutral.JPG',
@@ -42,6 +59,8 @@ path000 = {
   rightBtn: "Chase After the Light",
   leftFun: function(){game(path001)},
   rightFun: function(){game(path002)},
+  turnOffLeft: true,
+  turnOffRight: false,  
 };
 
 path001 = {
@@ -53,6 +72,8 @@ path001 = {
   rightBtn: 'Quit',
   leftFun: function(){game(path000)},
   rightFun: function(){game(path)},
+  turnOffLeft: true,
+  turnOffRight: true,  
 };
 
 path002 = {
@@ -64,6 +85,8 @@ path002 = {
   rightBtn: 'Leave',
   leftFun: function(){game(path003)},
   rightFun: function(){game(path007)},
+  turnOffLeft: true,
+  turnOffRight: true,
 };
 
 path003 = {
