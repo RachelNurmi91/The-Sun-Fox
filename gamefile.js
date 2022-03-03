@@ -20,8 +20,8 @@ function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, r
   rBtn.innerHTML = rightBtn;
   lBtn.onclick = leftFun;
   rBtn.onclick = rightFun;
-  lBtn.style.display = btnCtrlRight;
-  rBtn.style.display = btnCtrlLeft;
+  lBtn.style.display = btnCtrlLeft;
+  rBtn.style.display = btnCtrlRight;
 	
 };
 
