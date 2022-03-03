@@ -9,16 +9,21 @@ body{
   background-position: center top;
   background-repeat: no-repeat, repeat;
   background-color: #8fecff !important ;
-  position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: center; /*centers items on the line (the x-axis by default)*/
-  align-items: center; /*centers items on the cross-axis (y by default)*/
 }
+
 
 .game-body {
   padding: 100px 0 50px;
-  width: 50%;
+  margin: auto;
+  width: 60%;
+}
+
+#title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
 }
 
 .avatar-container {
@@ -52,7 +57,7 @@ body{
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
-  padding: 2% 0 2% 0;
+  padding: 2% 0 1% 0;
 }
 
 .h2-header {
@@ -64,19 +69,18 @@ body{
   text-align: center;
 }
 
-#title {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+#gamestart {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 24px;
+  color: #88dbc8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
 
-#gamestart {
-  margin-left: 25px;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-  text-decoration:none;
+#gamestart:hover {
+  color: #3eb499;
 }
 
 #storyPara {
@@ -87,17 +91,6 @@ body{
 #storyQ {
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
   text-align: center;
-  font-weight: bold;
-}
-
-
-.start {
-  font-family: 'Zen Kaku Gothic Antique', sans-serif;
-  font-size: 18px;
-  color: palevioletred;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-left: 60%;
   font-weight: bold;
 }
 
