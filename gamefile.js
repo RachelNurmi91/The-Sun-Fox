@@ -12,6 +12,8 @@ const ava = document.getElementById('avatar');
 
 // GAME FUNCTION
 function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun, btnCtrlLeft, btnCtrlRight}) {
+  document.getElementById('title')style.display = 'none';
+  document.getElementById('game')style.display = 'block';
   ava.src = avatar;
   header.innerHTML = title;
   para.innerHTML = paragraph;
@@ -27,10 +29,17 @@ function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, r
 
 //ONLOAD
 window.onload = (event) => {
-    game(path000);
+	titleScreen();
+//     game(path000);
 };
 
-//INTO OBJECT
+//TITLE FUNCTION
+function titleScreen() {
+	document.getElementById('title')style.display = 'block';
+	document.getElementById('game')style.display = 'none';
+}
+
+//INTRO OBJECT
 path000 = {
   avatar: 'avatars/avatar-neutral.JPG',
   title: 'The Sun Fox',
