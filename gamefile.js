@@ -10,22 +10,6 @@ const q = document.getElementById('storyQ');
 //TO CHANGE AVATAR
 const ava = document.getElementById('avatar');
 
-//BUTTON TOGGLER
-
-
-        if (turnOffLeft == true) {
-		visBtnLeft.style.display === "none";
-	  } else {
-		visBtnLeft.style.display === "inline-block"
-	};
-
-        if (turnOffRight == true) {
-		visBtnRight.style.display === "none";
-	  } else {
-		visBtnRight.style.display === "inline-block"
-	};
-};
-
 // GAME FUNCTION
 function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun, btnCtrlLeft, btnCtrlRight}) {
   ava.src = avatar;
