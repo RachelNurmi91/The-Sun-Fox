@@ -41,7 +41,7 @@ path000 = {
   leftFun: function(){game(path001)},
   rightFun: function(){game(path002)},
   btnCtrlLeft: 'none',
-  btnCtrlRight: none,  
+  btnCtrlRight: 'none',  
 };
 
 path001 = {
