@@ -12,8 +12,8 @@ const ava = document.getElementById('avatar');
 
 // GAME FUNCTION
 function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun, btnCtrlLeft, btnCtrlRight}) {
-  document.getElementById('title')style.display = 'none';
-  document.getElementById('game')style.display = 'block';
+  document.getElementById('title').style.display = 'none';
+  document.getElementById('game').style.display = 'block';
   ava.src = avatar;
   header.innerHTML = title;
   para.innerHTML = paragraph;
@@ -34,8 +34,8 @@ window.onload = (event) => {
 
 //TITLE FUNCTION
 function titleScreen() {
-	document.getElementById('title')style.display = 'block';
-	document.getElementById('game')style.display = 'none';
+	document.getElementById('title').style.display = 'block';
+	document.getElementById('game').style.display = 'none';
 	document.getElementById('gameStart').onclick = function(){game(path000)},;
 }
 
