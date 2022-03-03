@@ -36,12 +36,10 @@ body{
 }
 
 .h1-title {
-  font-size: 150px;
+  font-size: 125px;
   font-family: 'Love Ya Like A Sister';
-  margin: 0;
-  padding: 0;
-  letter-spacing: 10px;
-  line-height: 70%;
+  color: #ff7b00;
+  text-align: center;
 }
 
 .h4-title {
@@ -60,6 +58,13 @@ body{
   margin-bottom: 2%;
   text-transform: uppercase;
   text-align: center;
+}
+
+#gamestart {
+  margin-left: 25px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-decoration:none;
 }
 
 #storyPara {
