@@ -14,8 +14,12 @@ Programmed to deconstruct and pass a number of objects through a singular functi
 The first draft of this project just consisted of functions passing functions until the game ended. I rebuilt this project to make it object oriented. Instead of functions passing through eachother a number of objects pass through one function. I learned how to pass functions by deconstructing objects and how to set a function as an object property.
 
 ### Screenshots
+![Game Screenshot](screenshots/SunFoxScreenShotTitle.png)
+> Screenshot of the title screen.
+
+
 ![Game Screenshot](screenshots/SunFoxScreenShot.png)
-> Screenshot of the games opening.
+> Start of game screenshot.
 
 
 ![Game Screenshot](screenshots/SunFoxScreenShot2.png)
