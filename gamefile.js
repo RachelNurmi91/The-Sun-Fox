@@ -119,9 +119,10 @@ path007 = {
   paragraph: '<p>You walk home in the pouring rain. As you do you take a look at your phone and scroll through the weather forecast. At this rate it looks like the sun will never return.</p>',
   question: '→ Game Over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
+  rightBtn: '',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path008 = {
@@ -191,9 +192,10 @@ path013 = {
   paragraph: '<p>Your body aches as you lay still in the darkness. Getting up and chasing the mysterious lights no longer is of importance to you. You tell yourself you should have just taken the bus. Gradually you feel a slight mist. You get sleepy. </p><p>When you wake up you find you were fast asleep at the bus stop. It must have all been a dream. </p><p>The bus pulls up and everyone around you gets on. You step on the bus as the rain trickles down. When you sit in your seat you find that your body aches.</p>',
   question: '→ Game Over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
+  rightBtn: '',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path014 = {
@@ -215,9 +217,10 @@ path015 = {
   paragraph: '<p>It somehow grows darker and becomes more silent. You wonder if you made the right decision.</p> <p>The next time you blink you find yourself alone in the woods. The memories of todays events start to fade from your memory.</p> <p>Why are you in the middle of the woods? The rain starts to fall. You get up and head back towards the bus stop. It\'s time to go home.</p>',
   question: '→ Game Over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
+  rightBtn: '',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path016 = {
@@ -251,9 +254,10 @@ path018 = {
   paragraph: '<p>You are in darkness and there is no sign of them anywhere. The darkness is starting to overcome you and you start to feel very tired. Your eyes become heavy.</p> <p>You hear a faint whisper, \"You lost sight of the light…\"</p> <p>You feel rain hit your face. You open your eyes and you are back to a different point in time. People all around you are making their way onto the bus. You are the last person standing. You shake your head. It seemed so real but it must have been a dream. You step on the bus.</p> <p>Another gloomy day.</p>',
   question: '→ Game Over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
+  rightBtn: '',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path019 = {
@@ -285,9 +289,10 @@ path021 = {
   paragraph: '<p>The lights that once lit the room quickly burn out. You start to run away but you cannot find the path back. The darkness is too dense. You feel the ground give out under you and you fall into darkness.</p><p>The next time you open your eyes you see dense trees all around you. You are laying on the ground. The rain has soaked your clothes. Everything must have been a dream. You stand up and head back to the bus stop. \'How did I get in the woods in the first place?\' you wonder.</p>',
   question: '→ Game Over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
+  rightBtn: '',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path022 = {
@@ -307,9 +312,10 @@ path023 = {
   paragraph: '<p>You could hardly open your eyes, but something told you to run. You start running not knowing where you are going. You can hear a deafening cry of sorrow as you flee. The light intensifies and blinds you.</p><p>When you finally can open your eyes you find yourself running through the trees back to the bus stop. As you stop to catch your breath you look around. The scene is ordinary. The trees are damp. The street is full of puddles. The sky is gray.</p><p>The bus pulls up and you see everyone across the street getting on. You run to catch it before it leaves.</p><p>You can’t pinpoint why but inside you there is a deep feeling of loss.</p>',
   question: '→ Game Over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
+  rightBtn: '',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path024 = {
@@ -373,9 +379,10 @@ path029 = {
   paragraph: '<p>With your rejection, the Sun Fox spoke, \"A soul who can\'t is a soul who won\'t\".</p><p>You blink and you are back at the bus stop. People all around you are running from the bus. They seem to be frantic. Your phone pings and you see an alert that a flash flood is coming.</p><p>You must live with the choice you made.</p>',
   question: '→ Game Over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
+  rightBtn: '',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path030 = {
@@ -395,9 +402,10 @@ path031 = {
   paragraph: '<p>You were prepared for a lot but you weren\'t prepared for that. You have too many people who care about you and too many people you care about. You can’t just vanish from existence! \"I\'m sorry.\" You hang your head. \"But I can’t do that.\" You look up at the Sun Fox. You can see that even in the short time you\'ve spoken he has seem to have dimmed. \"There has to be someone else!\" You plead.</p><p>The Sun Fox doesn\'t say a word. It just nods. As it does the room flashes and blinds you. You are being shaken awake. You can see you are at the bus stop and an older man is above you. \"Wake up! We need to go!\" You recognize him as one of the daily commuters that takes the bus with you. He pulls you up to your feet and you stumble. \"A tsunami! A tsunami is coming!\"</p><p>You can feel your heart beat out of your chest. You realize you made a major mistake.<p>',
   question: '→ Game Over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
+  rightBtn: '',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path032 = {
