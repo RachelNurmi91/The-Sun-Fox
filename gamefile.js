@@ -36,7 +36,7 @@ window.onload = (event) => {
 function titleScreen() {
 	document.getElementById('title').style.display = 'block';
 	document.getElementById('game').style.display = 'none';
-	document.getElementById('gameStart').onclick = function(){game(path000)},;
+	document.getElementById('gameStart').onclick = function(){game(path000)};
 }
 
 //INTRO OBJECT
