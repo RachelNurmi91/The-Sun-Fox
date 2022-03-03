@@ -11,10 +11,7 @@ const q = document.getElementById('storyQ');
 const ava = document.getElementById('avatar');
 
 //BUTTON TOGGLER
-function toggleVis({turnOffLeft, turnOffRight}) { 
 
-	const visBtnLeft = document.getElementById("leftBtn");
-	const visBtnRight = document.getElementById("rightBtn");
 
         if (turnOffLeft == true) {
 		visBtnLeft.style.display === "none";
@@ -30,7 +27,7 @@ function toggleVis({turnOffLeft, turnOffRight}) {
 };
 
 // GAME FUNCTION
-function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun, turnOffLeft, turnOffRight}) {
+function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun, btnCtrlLeft, btnCtrlRight}) {
   ava.src = avatar;
   header.innerHTML = title;
   para.innerHTML = paragraph;
@@ -39,14 +36,14 @@ function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, r
   rBtn.innerHTML = rightBtn;
   lBtn.onclick = leftFun;
   rBtn.onclick = rightFun;
-    
-  toggleVis({turnOffLeft, turnOffRight});
+  lBtn.style.display = BtnCtrlRight;
+  rBtn.style.display = BtnCtrlLeft;
+	
 };
 
 //ONLOAD
 window.onload = (event) => {
     game(path000);
-    toggleBtns(path000);
 };
 
 //INTO OBJECT
@@ -59,8 +56,8 @@ path000 = {
   rightBtn: "Chase After the Light",
   leftFun: function(){game(path001)},
   rightFun: function(){game(path002)},
-  turnOffLeft: true,
-  turnOffRight: false,  
+  btnCtrlLeft: 'none',
+  btnCtrlRight: none,  
 };
 
 path001 = {
