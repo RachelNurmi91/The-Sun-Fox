@@ -413,10 +413,10 @@ path032 = {
   title: 'Take It On',
   paragraph: '<p>You were prepared for a lot but you weren\'t prepared for that. You have many people who care about you and many people you care about. But… What good is that if the light is gone? What good is your love if life on earth succumbs to complete darkness? You are, after all, the last shot. There isn\'t someone else who can take your place. And if there was, would they?</p><p>Your loved ones will miss you, but they will be safe. They will move on. \"I\'ll do it.\"</p><p>The light from the Sun Fox tunnels up into a ball above it. \"You are the one worthy of this. I know the fear you must feel and the pain of losing those you love. I will make sure the hearts of your loved ones are at peace.\" You can see he is now just a normal wounded fox. In that moment you wish you could save him too. The yellow ball of light shoots straight into your heart. It doesn’t hurt. In fact you don\'t feel anything other than a soft radiating warmth. </p><p>There is a bright flash of light.</p><p>When you can see again, the Sun Fox is gone from existence. The white glowing mice run up to you. One runs up onto your shoulder and checks you out. It alerts you to the fact that you are now just the glowing shape of the human you once were. </p><p>You think about the surface and you suddenly are there. You have somehow brought yourself to the hill above your family\'s home. Things are different now. You don\'t yet understand your power but soon you will.</p><p>When you look down at the valley below, you smile. The world is no longer shades of gray. It is bright colors. Your little sister run outside with your mom in tow. She points to a rainbow. There hasn\'t been a rainbow in years.</p>',
   question: '→ You have saved the world, Sun Child.',
-  leftBtn: '',
+  leftBtn: 'Exit',
   rightBtn: '',
   leftFun: function(){game(path)},
   rightFun: function(){game(path)},
-  btnCtrlLeft: 'none',  
+  btnCtrlLeft: 'inline-block',  
   btnCtrlRight: 'none',  
 };
