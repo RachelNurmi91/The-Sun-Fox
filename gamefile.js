@@ -49,7 +49,6 @@ path001 = {
   question: '→ Game over',
   leftBtn: 'Retry',
   leftFun: function(){game(path000)},
-  btnCtrlLeft: 'inline-block',
   btnCtrlRight: 'none',  
 };
 
