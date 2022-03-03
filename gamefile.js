@@ -405,4 +405,6 @@ path032 = {
   rightBtn: '',
   leftFun: function(){game(path)},
   rightFun: function(){game(path)},
+  btnCtrlLeft: 'none',  
+  btnCtrlRight: 'none',  
 };
