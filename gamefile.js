@@ -40,8 +40,6 @@ path000 = {
   rightBtn: "Chase After the Light",
   leftFun: function(){game(path001)},
   rightFun: function(){game(path002)},
-  btnCtrlLeft: 'none',
-  btnCtrlRight: 'none',  
 };
 
 path001 = {
@@ -50,11 +48,9 @@ path001 = {
   paragraph: '<p>You got on the bus as the rain started to pour down. It looks like another gloomy day ahead and no end in sight.</p>',
   question: '→ Game over',
   leftBtn: 'Retry',
-  rightBtn: 'Quit',
   leftFun: function(){game(path000)},
-  rightFun: function(){game(path)},
-  turnOffLeft: true,
-  turnOffRight: true,  
+  btnCtrlLeft: 'inline-block',
+  btnCtrlRight: 'none',  
 };
 
 path002 = {
