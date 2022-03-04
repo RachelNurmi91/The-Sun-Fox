@@ -24,13 +24,19 @@ function game(gameObj) {
   rBtn.onclick = gameObj.rightFun;
   lBtn.style.display = gameObj.btnCtrlLeft;
   rBtn.style.display = gameObj.btnCtrlRight;
-	
 };
 
 //ONLOAD
 window.onload = (event) => {
-	document.getElementById('gameStart').onclick = function(){game(path000)};
+	titleScreen();
 };
+
+//TITLE FUNCTION
+function titleScreen() {
+	document.getElementById('title').style.display = 'block';
+	document.getElementById('game').style.display = 'none';
+	document.getElementById('gameStart').onclick = function(){game(path000)};
+}
 
 //INTRO OBJECT
 path000 = {
