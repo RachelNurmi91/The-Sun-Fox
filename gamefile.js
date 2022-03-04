@@ -11,33 +11,26 @@ const q = document.getElementById('storyQ');
 const ava = document.getElementById('avatar');
 
 // GAME FUNCTION
-function game({avatar, title, paragraph, question, leftBtn, rightBtn, leftFun, rightFun, btnCtrlLeft, btnCtrlRight}) {
+function game(gameObj) {
   document.getElementById('title').style.display = 'none';
   document.getElementById('game').style.display = 'block';
-  ava.src = avatar;
-  header.innerHTML = title;
-  para.innerHTML = paragraph;
-  q.innerHTML = question;
-  lBtn.innerHTML = leftBtn;
-  rBtn.innerHTML = rightBtn;
-  lBtn.onclick = leftFun;
-  rBtn.onclick = rightFun;
-  lBtn.style.display = btnCtrlLeft;
-  rBtn.style.display = btnCtrlRight;
+  ava.src = gameObj.avatar;
+  header.innerHTML = gameObj.title;
+  para.innerHTML = gameObj.paragraph;
+  q.innerHTML = gameObj.question;
+  lBtn.innerHTML = gameObj.leftBtn;
+  rBtn.innerHTML = gameObj.rightBtn;
+  lBtn.onclick = gameObj.leftFun;
+  rBtn.onclick = gameObj.rightFun;
+  lBtn.style.display = gameObj.btnCtrlLeft;
+  rBtn.style.display = gameObj.btnCtrlRight;
 	
 };
 
 //ONLOAD
 window.onload = (event) => {
-	titleScreen();
-};
-
-//TITLE FUNCTION
-function titleScreen() {
-	document.getElementById('title').style.display = 'block';
-	document.getElementById('game').style.display = 'none';
 	document.getElementById('gameStart').onclick = function(){game(path000)};
-}
+};
 
 //INTRO OBJECT
 path000 = {
