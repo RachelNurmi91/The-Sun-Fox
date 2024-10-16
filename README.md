@@ -3,7 +3,7 @@
 Constructed a JavaScript game that was modeled after the Create Your Own Adventures books. It functions through interactive onclick events that offer the player new options, images and scenarios. 
 It was programmed to deconstruct and pass a number of objects through a singular function in order to progress the game until player quits or reaches the end.
 
-`View the active site:` https://rachelnurmi91.github.io/TheSunFox/
+`View the active site & play the game:` [https://rachelnurmi91.github.io/TheSunFox/](https://rachelnurmi91.github.io/The-Sun-Fox/)
 
 ### Built with
 - JavaScript
