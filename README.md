@@ -1,7 +1,7 @@
 # Choose Your Own Adventure: The Sun Fox
 
-Constructed a JavaScript game modeled after the Create Your Own Adventures books by creating interactive onclick events that offer the player new options, images and scenarios. 
-Programmed to deconstruct and pass a number of objects through a singular function in order to progress the game until player quits or reaches the end.
+Constructed a JavaScript game that was modeled after the Create Your Own Adventures books. It functions through interactive onclick events that offer the player new options, images and scenarios. 
+It was programmed to deconstruct and pass a number of objects through a singular function in order to progress the game until player quits or reaches the end.
 
 `View the active site:` https://rachelnurmi91.github.io/TheSunFox/
 
