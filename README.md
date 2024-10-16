@@ -1,7 +1,7 @@
 # Choose Your Own Adventure: The Sun Fox
 
 Constructed a JavaScript game that was modeled after the Create Your Own Adventures books. It functions through interactive onclick events that offer the player new options, images and scenarios. 
-It was programmed to deconstruct and pass a number of objects through a singular function in order to progress the game until player quits or reaches the end.
+It was programmed to deconstruct and pass a number of objects through a singular function in order to progress the game until player quits or reaches the end. The first draft of this project just consisted of functions passing functions until the game ended. I rebuilt this project to make it object oriented. Instead of functions passing through eachother a number of objects pass through one function. I learned how to pass functions by deconstructing objects and how to set a function as an object property.
 
 `View the active site & play the game:` [https://rachelnurmi91.github.io/TheSunFox/](https://rachelnurmi91.github.io/The-Sun-Fox/)
 
@@ -9,9 +9,6 @@ It was programmed to deconstruct and pass a number of objects through a singular
 - JavaScript
 - HTML
 - CSS
-
-### What I learned
-The first draft of this project just consisted of functions passing functions until the game ended. I rebuilt this project to make it object oriented. Instead of functions passing through eachother a number of objects pass through one function. I learned how to pass functions by deconstructing objects and how to set a function as an object property.
 
 ### Screenshots
 ![Game Screenshot](screenshots/SunFoxScreenShotTitle.png)
